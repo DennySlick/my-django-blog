@@ -44,7 +44,7 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
+    font-size: 20pt;
     margin-right: 20px;
 }
 
@@ -54,4 +54,11 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #31A0C4;
+}
+
+.auth-table{
+	padding: 20px 20px 20px 40px;
+	font-family: 'Sawarabi Mincho', 'Vollkorn', sans-serif, serif;
+	font-size: 12pt;
+	text-decoration: none;
 }
