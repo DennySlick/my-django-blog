@@ -1,12 +1,20 @@
+{% load static from staticfiles %}
 
 body {
 	font-family: 'Sawarabi Mincho', 'Vollkorn', sans-serif, serif;
 	font-size: 12pt;
 	text-decoration: none;
+
+
+	background-color: #D7EDF5;
+	color: #1C2F36
+
 }
 
 .page-header {
-    background-color: #287994;
+		background-color: #063140;
+		background-color: #287994;
+
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -26,7 +34,8 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #828282;
+		color: #BAD5DE;
+		color: #828282;
 }
 
 .post-navigation{
@@ -53,7 +62,9 @@ h1, h2, h3, h4 {
 }
 
 .post h1 a, .post h1 a:visited {
-    color: #31A0C4;
+		color: #84CFE8;
+		color: #31A0C4;
+
 }
 
 .auth-table{

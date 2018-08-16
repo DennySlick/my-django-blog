@@ -1,0 +1,8 @@
+{% load static from staticfiles %}
+
+body {
+  background-color: #000;
+  background-image: url(/static/images/moon_big.jpg);
+  background-repeat: no-repeat;
+  color: #fff
+}

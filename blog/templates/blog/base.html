@@ -1,4 +1,4 @@
-{% load static %}
+{% load static from staticfiles %}
 <html>
     <head>
 		<title>DennySlick's Blog</title>
@@ -9,10 +9,10 @@
 			<!-- Headers -->
 		<link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 			<!-- Dates/Text -->
-		<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet"> 
-		<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
 		<!-- My CSS -->
-		<link rel="stylesheet" href="{% static 'css/blog.css' %}">       
+		<link rel="stylesheet" href="{% static 'css/blog.css' %}">
     </head>
     <body>
         <div class="page-header">
